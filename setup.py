@@ -12,12 +12,11 @@ file_path = int(file_path)
 
 # 定义随机填充内容函数
 def fill():
-	chars = ('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&')
-	#length = int(102400)
-	fill = ''
-	for num in range(length):
-		fill += random.choice(chars)
-	return fill
+    chars = ('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&')
+    fill = ''
+    for num in range(length):
+        fill += random.choice(chars)
+    return fill
 
 # 创建文件
 for num in range(frequency):
